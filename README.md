@@ -1,5 +1,7 @@
 # jarvisprojects
 
+![JARVIS cybersecurity assistant banner](assets/jarvis-banner.svg)
+
 This repository contains a cybersecurity chatbot named CYBERFRIDAY.
 
 ## What it does

@@ -1,0 +1,57 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020817"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="160" y1="40" x2="1040" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#BAE6FD"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="190" cy="150" r="130" fill="#0EA5E9" opacity="0.12"/>
+  <circle cx="1010" cy="280" r="170" fill="#7C3AED" opacity="0.10"/>
+
+  <g opacity="0.4">
+    <path d="M940 94L1120 94" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M940 126L1100 126" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+    <path d="M940 158L1070 158" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M160 120C160 78.0264 194.026 44 236 44H380C421.974 44 456 78.0264 456 120V190C456 231.974 421.974 266 380 266H236C194.026 266 160 231.974 160 190V120Z" fill="url(#glow)" opacity="0.14"/>
+    <path d="M214 101C214 72.2812 238.281 48 267 48H349C377.719 48 402 72.2812 402 101V174C402 202.719 377.719 227 349 227H267C238.281 227 214 202.719 214 174V101Z" fill="#0F172A" stroke="#7DD3FC" stroke-width="2.5"/>
+    <rect x="248" y="76" width="92" height="18" rx="9" fill="#38BDF8" opacity="0.9"/>
+    <rect x="274" y="104" width="40" height="10" rx="5" fill="#38BDF8" opacity="0.8"/>
+    <rect x="236" y="131" width="150" height="70" rx="16" fill="url(#screen)"/>
+    <circle cx="261" cy="166" r="8" fill="#0EA5E9"/>
+    <circle cx="290" cy="166" r="8" fill="#22C55E"/>
+    <circle cx="319" cy="166" r="8" fill="#8B5CF6"/>
+    <path d="M256 187H356" stroke="#0F172A" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M249 205H364" stroke="#0F172A" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+    <line x1="303" y1="228" x2="303" y2="286" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="303" cy="300" r="18" fill="#0F172A" stroke="#7DD3FC" stroke-width="3"/>
+    <path d="M284 300H322" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round"/>
+    <path d="M303 281V319" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="520" y="180" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="62">JARVIS</text>
+    <text x="522" y="235" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-weight="600" font-size="34">Cybersecurity Assistant</text>
+    <path d="M520 257H925" stroke="url(#glow)" stroke-width="4" stroke-linecap="round"/>
+    <text x="522" y="311" fill="#C7D2FE" font-family="Segoe UI, Arial, sans-serif" font-weight="500" font-size="24">Password checks • phishing detection • incident response</text>
+    <g transform="translate(937 90)">
+      <path d="M84 0L168 32V90C168 127 147 160 112 184C93 196 72 205 60 211C49 205 28 196 9 184C-26 160 -47 127 -47 90V32L37 0H84Z" fill="url(#glow)" opacity="0.9"/>
+      <path d="M38 41L62 63L90 35" stroke="#E0F2FE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
+
